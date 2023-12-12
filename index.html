@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Physics Units</title>
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Physics Units</h1>
+    </header>
+    <main>
+        <section id="unit1">
+            <h2 onclick="toggleUnits('unit1Inner')">Unit 1: Fluids: Pressure and Forces</h2>
+            <ul id="unit1Inner" style="display: none;">
+                <li>Fluid Systems</li>
+                <li>Density</li>
+                <li>Pressure and Forces</li>
+                <li>Fluids and Free-Body Diagrams</li>
+                <li>Buoyancy</li>
+                <li>Conservation of Energy in Fluid Flow</li>
+                <li>Conservation of Mass Flow Rate in Fluids</li>
+            </ul>
+        </section>
+        
+        <section id="unit2">
+            <h2 onclick="toggleUnits('unit2Inner')">Unit 2: Thermodynamics</h2>
+            <ul id="unit2Inner" style="display: none;">
+                <li>Thermodynamic Systems</li>
+                <li>Pressure, Thermal Equilibrium, and the Ideal Gas Law</li>
+                <li>Thermodynamics and Collisions</li>
+                <li>Probability, Thermal Equilibrium, and Entropy</li>
+            </ul>
+        </section>
+        
+        <section id="unit3">
+            <h2 onclick="toggleUnits('unit3Inner')">Unit 3: Electric Force, Field, and Potential</h2>
+            <ul id="unit3Inner" style="display: none;">
+                <li>Electric Systems, and Charge</li>
+                <li>Charge Distribution: Friction, Conduction, and Induction</li>
+                <li>Electric Permittivity</li>
+                <li>Electric Forces and Free-Body Diagrams</li>
+                <li>Gravitational and Electromagnetic Forces</li>
+                <li>Electric Charges and Fields</li>
+                <li>Conservation of Electric Energy</li>
+            </ul>
+        </section>
+        
+        <section id="unit4">
+            <h2 onclick="toggleUnits('unit4Inner')">Unit 4: Electric Circuits</h2>
+            <ul id="unit4Inner" style="display: none;">
+                <li>Definition and Conservation of Electric Charge</li>
+                <li>Resistivity and Resistance</li>
+                <li>Resistance and Capacitances</li>
+                <li>Kirchoffs Loop Rule</li>
+                <li>Kirchoffs Junction Rule and the Conservation of Electric Charge</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+    </footer>
+
+    <script>
+        function toggleUnits(id) {
+            const innerList = document.getElementById(id);
+            innerList.style.display = innerList.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
