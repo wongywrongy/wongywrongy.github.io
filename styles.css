@@ -9,9 +9,7 @@ body {
     top: 0;
     background-color: #fff;
     z-index: 1000;
-    transition: padding 0.3s, box-shadow 0.3s;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    transition: transform 0.3s ease; /* Added transition for smooth slide */
 }
 
 .container {
